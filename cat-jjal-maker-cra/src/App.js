@@ -45,7 +45,7 @@ const Form = ({ updateMainCat }) => {
   return (
     <form onSubmit={handleFormSubmit}>
       <input type="text" name="name" placeholder="영어 대사를 입력해주세요" onChange={handleInputChange} value={value} />
-      <button type="submit">생성2</button>
+      <button type="submit">생성</button>
       <p style={{ color: 'red' }}>{errorMessage}</p>
     </form>
   );
